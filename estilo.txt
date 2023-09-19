@@ -1,0 +1,28 @@
+cores:
+
+navbar fixo: #333333;
+navbar movel: #333333;
+banner
+sobre nos: #e8e8e8;
+nossos serviços: #333333;
+contato: #e8e8e8;
+faq: #333333;
+footer
+
+palavras
+branco: #f6f6f6;
+preto: #000;
+destaque (azul) : #00a0b0;
+blur: #00a1b091;
+
+sombra:
+ box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+tamanho das fontes
+p do banner: 54px - 46px;
+p do texto: 18px; - 16px;
+menu: 24px - 20.5px;
+h2: 36px; - 31px;
+h4: 27px; - 23px;
+
+tamanho das fontes
