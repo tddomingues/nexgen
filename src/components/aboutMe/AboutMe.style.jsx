@@ -3,14 +3,14 @@ import styled from "styled-components";
 import sobrenos from "../../assets/sobrenos.jpg";
 
 export const Container = styled.section`
-  padding: 300px 60px 2em 60px;
+  padding: 2em 60px 2em 60px;
   display: flex;
   justify-content: space-between;
   gap: 60px;
   background-color: #e8e8e8;
 
   @media screen and (max-width: 576px) {
-    padding: 200px 30px 2em 30px;
+    padding: 2em 30px 2em 30px;
     flex-direction: column-reverse;
   }
 `;
@@ -39,8 +39,8 @@ export const Box = styled.div`
     margin-top: 100px;
     border-radius: 30px;
     font-size: 16px;
-    font-weight: bold;
-    padding: 10px 12px;
+    
+    padding: 6px 12px;
     transition: 0.4s;
     background-color: #00a0b0;
     color: #f6f6f6;
@@ -51,7 +51,7 @@ export const Box = styled.div`
   }
 
   & > button > .bi-arrow-bar-right {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   @media screen and (max-width: 576px) {

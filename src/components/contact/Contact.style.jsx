@@ -26,12 +26,12 @@ export const Content = styled.section`
     padding: 2em 30px 2em 30px;
 
     & > h2 {
-    font-size: 31px;
-  }
+      font-size: 31px;
+    }
 
     & > p {
-    font-size: 16px;
-  }
+      font-size: 16px;
+    }
   }
 `;
 
@@ -84,8 +84,7 @@ export const Info = styled.div`
 
   & > div > button {
     font-size: 16px;
-    font-weight: bold;
-    padding: 10px 12px;
+    padding: 6px 12px;
     margin-top: 20px;
     transition: 0.4s;
     display: flex;
@@ -99,7 +98,7 @@ export const Info = styled.div`
   }
 
   & > div > button > .bi-arrow-bar-right {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   & > div > span > .bi-chat,
@@ -112,8 +111,7 @@ export const Info = styled.div`
     flex-direction: column;
     gap: 80px;
     & > div {
-      width: 300px;
-      
+      width: 100%;
     }
 
     & > div > h4 {
@@ -163,18 +161,21 @@ export const Email = styled.div`
     font-weight: bold;
   }
 
-  & > form button:hover {
-    
-  }
-
   @media screen and (max-width: 576px) {
     flex-direction: column;
     gap: 10px;
-    padding: 25px 30px 25px 30px;
+    padding: 2em 30px 2em 30px;
 
     & > p {
-    font-size: 31px;
+      font-size: 31px;
+    }
+
+    & > form input {
+    width: 80%;
   }
+
+    & > form {
+      width: 100%;
+    }
   }
 `;
-

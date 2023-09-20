@@ -1,53 +1,74 @@
 import styled from "styled-components";
 
-import Logo from "../../assets/logo.png";
-import LogoMobile from "../../assets/logoMobile.png";
-
 export const Header = styled.header`
   position: relative;
-  background-color: #333333;
+  background-color:  #e8e8e8;
   z-index: 111111;
-
-  & #btn-menu {
-    background-color: transparent;
-  }
-
-  & .bi-list,
-  .bi-x-lg {
-    font-size: 36px;
-    color: #f6f6f6;
-  }
+  padding: 10px 30px 0px 30px;
 `;
 
-export const NavBtnLogo = styled.header`
+export const NavBtnLogo = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px 10px 20px;
 
-  & a {
-    background-image: url(${Logo});
-    background-position: center;
-    background-size: cover;
-    width: 120px;
-    height: 60px;
+  & > div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  & > div > #btn-menu {
+    background-color: transparent;
+  }
+
+  & .bi-x-lg, .bi-list {
+    font-size: 36px;
+    color: #333333;
+    cursor: pointer;
+  }
+
+  & .bi-search {
+    font-size: 25px;
+    color: #333333;
+    cursor: pointer;
+  }
+
+  & > a {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+
+    & > span {
+      font-weight: normal;
+    }
   }
 
   @media screen and (max-width: 576px) {
-    a {
-      background-image: url(${LogoMobile});
-      background-position: center;
-      background-size: cover;
+    & > a {
+      font-size: 20.5px;
     }
+
+    & > div {
+    gap: 20px;
+  }
+
+    & .bi-x-lg, .bi-list {
+    font-size: 32px;
+  }
+
+  & .bi-search {
+    font-size: 21px;
+  }
   }
 `;
 
 export const Menu = styled.nav`
   display: block;
-  background-color: #333333;
-  height: 800px;
+  background-color: #e8e8e8;
+  height: 100vh;
   width: 0px;
-  top: 80px;
+  top: 87,59px;
   right: 0px;
   position: absolute;
   white-space: nowrap;
@@ -76,12 +97,12 @@ export const Menu = styled.nav`
   }
 
   ul li:hover {
-    background-color: #00a0b0;
+    background-color: #f6f6f6;
   }
 
   ul li a {
-    font-size: 27px;
-    color: #f6f6f6;
+    font-size: 24px;
+    color: #333333;
     transition: 0.4s;
   }
 
@@ -103,10 +124,10 @@ export const Menu = styled.nav`
   
 
   @media screen and (max-width: 576px) {
-    height: 500px;
+    height: 100vh;
 
     ul li a {
-      font-size: 23px;
+      font-size: 20.5px;
     }
   }
 `;

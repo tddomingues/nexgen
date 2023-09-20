@@ -12,10 +12,15 @@ const NavBar = () => {
   return (
     <Header>
       <NavBtnLogo>
-        <a href="#home"></a>
-        <button id="btn-menu" onClick={handleClick}>
-          <i className={menuActivated === true ? "bi-x-lg" : "bi-list"}></i>
-        </button>
+        <a href="#home">
+          NexGen <span>Software</span>
+        </a>
+        <div>
+          <span><i className="bi bi-search"></i></span>
+          <button id="btn-menu" onClick={handleClick}>
+            <i className={menuActivated === true ? "bi bi-x-lg" : "bi bi-list"}></i>
+          </button>
+        </div>
       </NavBtnLogo>
       <Menu className={menuActivated === true ? "menu-open" : "menu-closed"}>
         <ul>
@@ -45,17 +50,6 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
-        <div>
-          <span>
-            <i className="bi bi-facebook"></i>
-          </span>
-          <span>
-            <i className="bi bi-twitter"></i>
-          </span>
-          <span>
-            <i className="bi bi-instagram"></i>
-          </span>
-        </div>
       </Menu>
     </Header>
   );

@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Info = styled.div`
-  padding: 2em 20px 2em 20px;
+  padding: 2em 30px 2em 30px;
   background-color: #e8e8e8;
   display: flex;
   justify-content: space-evenly;

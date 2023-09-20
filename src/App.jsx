@@ -17,10 +17,11 @@ function App() {
     <>
       <NavBar/>
       <Banner/>
+      <Customers/>
       <AboutMe/>  
       <Services/>
       <Contact/>
-      <Customers/>
+      
       <Faq/>
       <Footer/>
       <BackToTop/>

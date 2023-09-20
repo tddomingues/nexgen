@@ -4,18 +4,27 @@ import LogoIbm from "../../assets/ibm.png";
 import LogoFacebook from "../../assets/facebook.png";
 import LogoApple from "../../assets/apple.png";
 import LogoTesla from "../../assets/tesla.png";
-import LogoNetflix from "../../assets/netflix.png";
 
 export const Container = styled.section`
   background-color: #e8e8e8;
+  padding: 2em 60px 2em 60px;
+
+  & > p {
+    color: #333333;
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 2em;
+  }
+
+  & > p > span {
+    color: #00a0b0;
+  }
 
   & > div {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-
     gap: 3em;
-    padding: 2em 60px 2em 60px;
   }
 
   & > div > div {
@@ -45,18 +54,15 @@ export const Container = styled.section`
     background-image: url(${LogoTesla});
   }
 
-  & > div > div:nth-child(6) {
-    background-image: url(${LogoMicrosoft});
-  }
-
-  & > div > div:nth-child(7) {
-    background-image: url(${LogoNetflix});
-  }
-
   @media screen and (max-width: 576px) {
+    padding: 200px 30px 2em 30px;
+
+    & > p {
+    font-size: 23px;
+  }
+
     & > div {
       gap: 20px;
-      padding: 2em 30px 2em 30px;
     }
 
     & > div > div {

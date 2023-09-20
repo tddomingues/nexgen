@@ -79,7 +79,6 @@ export const Delimiter = styled.section`
 export const Carousel = styled.section`
   display: flex;
   align-items: center;
-
   gap: 60px;
   overflow-x: scroll;
   scroll-behavior: smooth;
@@ -168,8 +167,7 @@ export const Info = styled.section`
 
   & > button {
     font-size: 16px;
-    font-weight: bold;
-    padding: 10px 12px;
+    padding: 6px 12px;
     margin-top: 20px;
     transition: 0.4s;
     display: flex;
@@ -183,7 +181,7 @@ export const Info = styled.section`
   }
 
   & > button > .bi-arrow-bar-right {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   @media screen and (max-width: 576px) {

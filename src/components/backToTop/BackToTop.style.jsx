@@ -4,6 +4,7 @@ export const Container = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 11111111;
 
   & > div {
     width: 80px;
@@ -13,7 +14,6 @@ export const Container = styled.div`
     justify-content: center;
     cursor: pointer;
     background-color: #00a0b0;
-    border: 1px solid #f6f6f6;
   }
 
   & > div:hover {
@@ -23,5 +23,16 @@ export const Container = styled.div`
   & > div > .bi {
     font-size: 60px;
     color:  #f6f6f6;
+  }
+
+  @media screen and (max-width: 576px) {
+    & > div {
+    width: 60px;
+    height: 60px;
+  }
+
+  & > div > .bi {
+    font-size: 50px;
+  }
   }
 `;

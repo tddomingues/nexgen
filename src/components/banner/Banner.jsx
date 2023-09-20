@@ -1,4 +1,4 @@
-import { Container, Info, Phrase } from "./Banner.style";
+import { Container,Image, Phrase } from "./Banner.style";
 
 const Banner = () => {
   return (
@@ -10,7 +10,9 @@ const Banner = () => {
         </p>
       </Phrase>
 
-      <Info>
+      <Image></Image>
+
+      {/* <Info>
         <div>
           <p>
             <i className="bi bi-display"></i>
@@ -38,7 +40,7 @@ const Banner = () => {
             Nosso suporte é o seu apoio contínuo.
           </p>
         </div>
-      </Info>
+      </Info> */}
     </Container>
   );
 };
