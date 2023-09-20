@@ -25,13 +25,18 @@ export const Container = styled.section`
     padding: 2em 30px 2em 30px;
 
     & h2 {
-    font-size: 31px;
-  }
+      font-size: 31px;
+    }
   }
 `;
 
 export const Delimiter = styled.section`
   position: relative;
+
+  button {
+    background-color: #e8e8e856;
+    padding: 5px;
+  }
 
   .btn-left,
   .btn-right {
@@ -50,9 +55,9 @@ export const Delimiter = styled.section`
   .bi-chevron-left,
   .bi-chevron-right {
     font-size: 60px;
-    opacity: 0.05;
+    opacity: 0.5;
     transition: 0.3s;
-    color: #f6f6f6;
+    color: #333333;
   }
 
   .bi-chevron-left:hover,
@@ -62,12 +67,12 @@ export const Delimiter = styled.section`
 
   @media screen and (max-width: 576px) {
     .btn-left {
-    left: -30px;
-  }
+      left: -30px;
+    }
 
-  .btn-right {
-    right: -30px;
-  }
+    .btn-right {
+      right: -30px;
+    }
   }
 `;
 
@@ -185,8 +190,8 @@ export const Info = styled.section`
     width: 300px;
 
     & > p {
-    font-size: 16px;
-  }
+      font-size: 16px;
+    }
 
     & .image {
       width: 250px;
@@ -200,72 +205,8 @@ export const Info = styled.section`
     }
 
     & > div:nth-child(1) > h4 {
-    font-size: 23px;
-    text-align: center;
-  }
+      font-size: 23px;
+      text-align: center;
+    }
   }
 `;
-
-// #services>div {
-//     width: 80%;
-//     margin: 0 auto;
-//     position: relative;
-// }
-
-// .service-1-image {
-//     background-image: url("assets/ia.jpg");
-// }
-
-// .service-text>p {
-//     font-size: 20px;
-//     line-height: 1.6;
-//     color: #363636;
-//     text-align: center;
-// }
-
-// .service-2-image {
-//     background-image: url("assets/vr.jpg");
-// }
-
-// .service-3-image {
-//     background-image: url("assets/consultoria.jpg");
-// }
-
-// .service-4-image {
-//     background-image: url("assets/integrandoSistema.jpg");
-// }
-
-// .service-5-image {
-//     background-image: url("assets/suporte.jpg");
-// }
-
-// .service-6-image {
-//     background-image: url("assets/automocao.jpg");
-// }
-
-// @media screen and (max-width: 576px) {
-
-//     .service-1-image,
-//     .service-2-image,
-//     .service-3-image,
-//     .service-4-image,
-//     .service-5-image,
-//     .service-6-image {
-//         width: 250px;
-//         height: 250px;
-//     }
-
-//     #services>div {
-//         width: 90%;
-
-//     }
-
-//     .service-text>h4 {
-//         font-size: 25px;
-//     }
-
-//     .service-text>p {
-//         font-size: 16px;
-//         text-align: center;
-//     }
-// }

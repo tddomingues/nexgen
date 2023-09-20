@@ -9,14 +9,14 @@ export const Container = styled.section`
   display: flex;
   position: relative;
   align-items: center;
-  background: linear-gradient(#363636aa, #000000aa), url(${BannerDesktop});
+  background: linear-gradient(#333333b0, #00000075), url(${BannerDesktop});
   background-size: cover;
 
   @media screen and (max-width: 576px) {
     align-items: normal;
     padding-top: 45px;
     height: 500px;
-    background: linear-gradient(#363636aa, #000000aa), url(${BannerMobile});
+    background: linear-gradient(#333333e4, #00000087), url(${BannerMobile});
     background-size: cover;
     background-position: center;
   }
@@ -121,44 +121,3 @@ export const Info = styled.div`
     }
   }
 `;
-
-// @media screen and (max-width: 576px) {
-//     #banner {
-//         height: 600px;
-//         align-items: start;
-//     }
-
-//     #banner>div>p {
-//         font-size: 34px;
-//         padding: 40px 10px 10px 20px;
-//     }
-
-//     #banner>div {
-//         width: 95%;
-//     }
-
-//     .info {
-//         gap: 10px;
-//         padding: 10px;
-//     }
-
-//     .info>div {
-//         width: 33%;
-//     }
-
-//     .info>div>h4 {
-//         font-size: 18px;
-//         word-wrap: break-word;
-//         padding: 5px 0 5px 0;
-//     }
-
-//     .info>div>p {
-//         font-size: 12px;
-//     }
-
-//     .bi-display,
-//     .bi-repeat,
-//     .bi-chat-square-dots {
-//         font-size: 40px;
-//     }
-// }

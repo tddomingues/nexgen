@@ -86,25 +86,3 @@ export const Question = styled.div`
   }
 `;
 
-// #faq h2 {
-//     text-align: center;
-// }
-
-// #faq>div {
-//     width: 800px;
-//     margin: 0 auto;
-// }
-
-// .title-faq span {
-//     padding-right: 20px;
-
-// }
-
-// .title-faq span .bi {
-//     font-size: 40px;
-// }
-
-// .faq--active .text-faq {
-//     max-height: 200px;
-//     transition: 0.4s;
-// }

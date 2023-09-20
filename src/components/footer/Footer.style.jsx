@@ -50,35 +50,3 @@ export const Property = styled.div`
     text-align: center;
   }
 `;
-
-// .footerContact>div>div {
-//     display: flex;
-//     align-items: center;
-//     gap: 10px;
-// }
-
-// .footerContact div span .bi {
-//     font-size: 30px;
-// }
-
-// .socialNetwork span .bi {
-//     font-size: 25px;
-//     cursor: pointer;
-// }
-
-// .socialNetwork>div:nth-child(2) {
-//     display: flex;
-//     gap: 20px;
-// }
-
-// @media screen and (max-width: 576px) {
-//     .footerContact {
-//         flex-direction: column;
-//         gap: 20px;
-//     }
-
-//     .footerContact>div>p {
-
-//         padding-bottom: 10px;
-
-//     }
