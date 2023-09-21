@@ -23,9 +23,8 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Soluções de Inteligência Artificial (IA)</h4>
+                <h3>Soluções de Inteligência Artificial (IA)</h3>
               </div>
-
               <div className="image service-1-image"></div>
               <p>
                 Nossas soluções de IA transformam dados em insights poderosos.
@@ -42,7 +41,7 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Desenvolvimento de Realidade Virtual (VR)</h4>
+                <h3>Desenvolvimento de Realidade Virtual (VR)</h3>
               </div>
 
               <div className="image service-2-image"></div>
@@ -60,7 +59,7 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Consultoria em Tecnologia da Informação</h4>
+                <h3>Consultoria em Tecnologia da Informação</h3>
               </div>
 
               <div className="image service-3-image"></div>
@@ -76,7 +75,7 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Integração de Sistemas</h4>
+                <h3>Integração de Sistemas</h3>
               </div>
 
               <div className="image service-4-image"></div>
@@ -92,7 +91,7 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Manutenção e Suporte Técnico</h4>
+                <h3>Manutenção e Suporte Técnico</h3>
               </div>
 
               <div className="image service-5-image"></div>
@@ -109,7 +108,7 @@ const Services = () => {
           <div>
             <Info>
               <div>
-                <h4>Automação de Processos de Negócios</h4>
+                <h3>Automação de Processos de Negócios</h3>
               </div>
 
               <div className="image service-6-image"></div>
@@ -123,10 +122,10 @@ const Services = () => {
             </Info>
           </div>
         </Carousel>
-        <button onClick={handleAdvanceLeft} className="btn-left">
+        <button onClick={handleAdvanceLeft} className="btn-left" aria-label="Mover carrousel para esquerda">
           <i className="bi bi-chevron-left"></i>
         </button>
-        <button onClick={handleAdvanceRight} className="btn-right">
+        <button onClick={handleAdvanceRight} className="btn-right" aria-label="Mover carrousel para esquerda">
           <i className="bi bi-chevron-right"></i>
         </button>
       </Delimiter>

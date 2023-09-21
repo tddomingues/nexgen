@@ -17,7 +17,7 @@ const NavBar = () => {
         </a>
         <div>
           <span><i className="bi bi-search"></i></span>
-          <button id="btn-menu" onClick={handleClick}>
+          <button id="btn-menu" onClick={handleClick} aria-label="Botão do menu">
             <i className={menuActivated === true ? "bi bi-x-lg" : "bi bi-list"}></i>
           </button>
         </div>
@@ -25,27 +25,27 @@ const NavBar = () => {
       <Menu className={menuActivated === true ? "menu-open" : "menu-closed"}>
         <ul>
           <li>
-            <a href="#home" onClick={handleClick}>
+            <a href="#home" onClick={handleClick} aria-label="Menu início">
               Início
             </a>
           </li>
           <li>
-            <a href="#aboutMe" onClick={handleClick}>
+            <a href="#aboutMe" onClick={handleClick} aria-label="Menu sobre nós">
               Sobre Nós
             </a>
           </li>
           <li>
-            <a href="#service" onClick={handleClick}>
+            <a href="#service" onClick={handleClick} aria-label="Menu nossos serviços">
               Nossos Serviços
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={handleClick}>
+            <a href="#contact" onClick={handleClick} aria-label="Menu contato">
               Contato
             </a>
           </li>
           <li>
-            <a href="#faq" onClick={handleClick}>
+            <a href="#faq" onClick={handleClick} aria-label="Menu faq">
               FAQ
             </a>
           </li>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import sobrenos from "../../assets/sobrenos.jpg";
+import sobrenos from "../../assets/sobrenos.webp";
 
 export const Container = styled.section`
   padding: 2em 60px 2em 60px;
@@ -10,7 +10,7 @@ export const Container = styled.section`
   background-color: #e8e8e8;
 
   @media screen and (max-width: 576px) {
-    padding: 2em 30px 2em 30px;
+    padding: 2em 15px 2em 15px;
     flex-direction: column-reverse;
   }
 `;
@@ -39,7 +39,6 @@ export const Box = styled.div`
     margin-top: 100px;
     border-radius: 30px;
     font-size: 16px;
-    
     padding: 6px 12px;
     transition: 0.4s;
     background-color: #00a0b0;

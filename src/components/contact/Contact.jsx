@@ -19,7 +19,7 @@ const Contact = () => {
             <span>
               <i className="bi bi-chat"></i>
             </span>
-            <h4>Fale com um especialista</h4>
+            <h3>Fale com um especialista</h3>
             <p>
               Inicie uma conversa com nossa equipe experiente. Estamos prontos
               para responder a todas as suas perguntas e discutir suas
@@ -33,7 +33,7 @@ const Contact = () => {
             <span>
               <i className="bi bi-calendar"></i>
             </span>
-            <h4>Agendar projeto</h4>
+            <h3>Agendar projeto</h3>
             <p>
               Pronto para transformar sua visão em realidade? Agende um projeto
               conosco e descubra como podemos criar soluções personalizadas para

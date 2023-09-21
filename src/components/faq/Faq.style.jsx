@@ -15,7 +15,7 @@ export const FaqContainer = styled.section`
   }
 
   @media screen and (max-width: 576px) {
-    padding: 2em 30px 2em 30px;
+    padding: 2em 15px 2em 15px;
 
     & > h2 {
       font-size: 31px;

@@ -4,7 +4,7 @@ export const Header = styled.header`
   position: relative;
   background-color:  #e8e8e8;
   z-index: 111111;
-  padding: 10px 30px 0px 30px;
+  padding: 10px 15px 10px 15px;
 `;
 
 export const NavBtnLogo = styled.nav`

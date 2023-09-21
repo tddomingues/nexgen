@@ -23,6 +23,7 @@ export const Info = styled.div`
   @media screen and (max-width: 576px) {
     flex-direction: column;
     gap: 10px;
+    padding: 2em 15px 2em 15px;
     
     & > div > p {
     font-size: 23px;
@@ -39,7 +40,7 @@ export const Info = styled.div`
 
 export const Property = styled.div`
   background-color: #333333;
-  padding: 1em 30px 1em 30px;
+  padding: 1em 15px 1em 15px;
   display: flex;
   align-items: center;
   justify-content: center;

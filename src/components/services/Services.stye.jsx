@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-import ImageIA from "../../assets/ia.jpg";
-import ImageVR from "../../assets/vr.jpg";
-import ImageC from "../../assets/consultoria.jpg";
-import ImageI from "../../assets/integrandoSistema.jpg";
-import ImagemM from "../../assets/suporte.jpg";
-import ImagemA from "../../assets/automocao.jpg";
+import ImageIA from "../../assets/ia.webp";
+import ImageVR from "../../assets/vr.webp";
+import ImageC from "../../assets/consultoria.webp";
+import ImageI from "../../assets/integrandoSistema.webp";
+import ImagemM from "../../assets/suporte.webp";
+import ImagemA from "../../assets/automocao.webp";
 
 export const Container = styled.section`
   padding: 2em 60px 2em 60px;
@@ -22,7 +22,7 @@ export const Container = styled.section`
   }
 
   @media screen and (max-width: 576px) {
-    padding: 2em 30px 2em 30px;
+    padding: 2em 15px 2em 15px;
 
     & h2 {
       font-size: 31px;
@@ -127,7 +127,7 @@ export const Info = styled.section`
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
 
-  & > div:nth-child(1) > h4 {
+  & > div:nth-child(1) > h3 {
     padding: 10px;
     font-size: 27px;
     color: #f6f6f6;
@@ -202,7 +202,7 @@ export const Info = styled.section`
       top: -65px;
     }
 
-    & > div:nth-child(1) > h4 {
+    & > div:nth-child(1) > h3 {
       font-size: 23px;
       text-align: center;
     }

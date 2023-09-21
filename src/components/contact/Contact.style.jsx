@@ -23,7 +23,7 @@ export const Content = styled.section`
   }
 
   @media screen and (max-width: 576px) {
-    padding: 2em 30px 2em 30px;
+    padding: 2em 15px 2em 15px;
 
     & > h2 {
       font-size: 31px;
@@ -68,7 +68,7 @@ export const Info = styled.div`
     border-radius: 50%;
   }
 
-  & > div > h4 {
+  & > div > h3 {
     text-align: center;
     padding: 30px 0px 10px 0px;
     font-size: 27px;
@@ -114,7 +114,7 @@ export const Info = styled.div`
       width: 100%;
     }
 
-    & > div > h4 {
+    & > div > h3 {
       font-size: 23px;
     }
 
@@ -164,7 +164,7 @@ export const Email = styled.div`
   @media screen and (max-width: 576px) {
     flex-direction: column;
     gap: 10px;
-    padding: 2em 30px 2em 30px;
+    padding: 2em 15px 2em 15px;
 
     & > p {
       font-size: 31px;

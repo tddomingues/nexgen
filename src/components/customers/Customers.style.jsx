@@ -1,9 +1,9 @@
 import { styled } from "styled-components";
-import LogoMicrosoft from "../../assets/microsoft.png";
-import LogoIbm from "../../assets/ibm.png";
-import LogoFacebook from "../../assets/facebook.png";
-import LogoApple from "../../assets/apple.png";
-import LogoTesla from "../../assets/tesla.png";
+import LogoMicrosoft from "../../assets/microsoft.webp";
+import LogoIbm from "../../assets/ibm.webp";
+import LogoFacebook from "../../assets/facebook.webp";
+import LogoApple from "../../assets/apple.webp";
+import LogoTesla from "../../assets/tesla.webp";
 
 export const Container = styled.section`
   background-color: #e8e8e8;
@@ -55,7 +55,7 @@ export const Container = styled.section`
   }
 
   @media screen and (max-width: 576px) {
-    padding: 200px 30px 2em 30px;
+    padding: 200px 15px 2em 15px;
 
     & > p {
     font-size: 23px;
